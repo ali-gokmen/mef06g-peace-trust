@@ -51,6 +51,7 @@ meyve = read_excel("data//meyve.xlsx")
 
 Fixing column names of the datasets
 ```{r load_data, warning = FALSE}
+
 new_cols <- c("province","year","decare")
 colnames(tarim) <- new_cols
 
@@ -59,6 +60,7 @@ colnames(sebze) <- new_cols
 
 new_cols <- c("grain_type","province","year","production")
 colnames(tahil) <- new_cols
+
 ```
 
 
